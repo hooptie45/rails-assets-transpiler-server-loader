@@ -1,0 +1,23 @@
+{
+  "name": "rails-assets-transpiler-server-loader",
+  "version": "1.0.0",
+  "description": "Uses Ruby haml-transpiler-server gem to transpile HAML files to HTML with decent speed using ruby executable",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No test present\" && exit 0"
+  },
+  "keywords": [
+    "haml",
+    "html",
+    "ruby",
+    "webpack",
+    "loader"
+  ],
+  "author": "Shaun Hannah",
+  "license": "MIT",
+  "dependencies": {
+    "coffee-script": "^1",
+    "loader-utils": "0.2.14",
+    "request-promise": "~ 4"
+  }
+}
